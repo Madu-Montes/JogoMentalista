@@ -11,10 +11,10 @@ while (chute != numSecreto) {
     }
     //se errado, dar dicas 
     else if (chute > numSecreto) {
-        alert('Errou :( O número secreto é menor.');
+        alert('Errou :( O número secreto é menor do que ' + chute);
     }
     else if (chute < numSecreto) {
-        alert('Errou :( O número secreto é maior.')
+        alert('Errou :( O número secreto é maior do que ' + chute)
     }
 }
 
